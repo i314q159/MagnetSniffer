@@ -1,0 +1,17 @@
+{
+  "name": "MagnetSniffer",
+  "version": "0.0.1",
+  "description": "MagnetSniffer",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "content/content.js",
+  "scripts": {
+    "start": "web-ext run",
+    "build": "web-ext build",
+    "lint": "web-ext lint"
+  },
+  "devDependencies": {
+    "web-ext": "^8.10.0"
+  }
+}

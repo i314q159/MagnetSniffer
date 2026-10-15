@@ -1,0 +1,13 @@
+# node依赖
+node_modules/
+package-lock.json
+
+# web-ext打包输出
+web-ext-artifacts/
+
+# vscode本地配置
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
