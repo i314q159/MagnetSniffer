@@ -1,12 +1,19 @@
 {
     "manifest_version": 3,
     "name": "MagnetSniffer",
-    "version": "0.1",
+    "version": "0.1.0",
     "description": "自动识别页面中的磁力链接并转为可点击链接",
     "browser_specific_settings": {
         "gecko": {
-            "id": "i314q159@outlook.com"
-        }
+            "id": "i314q159@outlook.com",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ],
+                "optional": []
+            }
+        },
+        "strict_min_version": "140.0"
     },
     "icons": {
         "48": "icons/icon-48.svg"
@@ -25,6 +32,9 @@
                 "content/content.js"
             ]
         }
+    ],
+    "host_permissions": [
+        "<all_urls>"
     ],
     "permissions": []
 }
