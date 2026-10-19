@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "MagnetSniffer",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "自动识别页面中的磁力链接并转为可点击链接",
     "browser_specific_settings": {
         "gecko": {
