@@ -1,3 +1,5 @@
+English | [简体中文](./README.zh-CN.md)
+
 # MagnetSniffer
 
 ![MagnetSniffer Icon](./icons/icon-48.svg)
@@ -14,8 +16,7 @@ Matched hash strings will be highlighted in **yellow background**, converted int
 - Recognize raw 40-length BT SHA1 hash (common in Japanese introduction pages)
 - Yellow highlight matched hash / magnet text
 - Convert raw hash into clickable magnet links automatically
-- Popup panel to list all found magnet links on current page
-- Lightweight, only scan article content area for better performance
+- Lightweight, skips scripts, styles, textareas and existing links for better performance
 
 ## How to Use
 
@@ -27,3 +28,4 @@ npm install
 
 # Launch Firefox with temporary extension loaded
 npm run start
+```
